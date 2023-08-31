@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="image.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+</head>
+<body onload="typing()">
+
+<div class="header">
+    <div class="head">
+        <h1 id="heading"></h1>
+    </div>
+    <img src="ai logo.png" style="scale: 0.5;" class="logo">
+</div>
+
+<div class="container">
+
+    <center><input type="text" id="user-prompt" placeholder="Describe the image..."/>
+    <button id="generate">Generate</button><br><br><br>
+<div class="loading" id="loading">
+    
+    Generating Images...
+</div>
+</center>
+</div>
+    <div id="image-grid">
+
+    </div>
+
+
+
+</body>
+    
+<script src="image.js"></script>
+</html>
